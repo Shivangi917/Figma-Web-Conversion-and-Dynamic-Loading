@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const ProjectSchema = new mongoose.Schema({
   title: String,
   description: String,
-  slug: String, // Add this field
+  slug: String,
   tasks: [{
     task_id: Number,
     task_title: String,
